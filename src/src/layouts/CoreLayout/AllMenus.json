@@ -1,0 +1,190 @@
+{
+  "GetAllMenuItemsResult": [
+    {
+      "Attributes": [
+
+      ],
+
+      "Children": [
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+          "RouteLink": "/Dashboard/MyDashboard",
+          "Name": "My Dashboards",
+          "Notes": "My Dashboards"
+
+
+        },
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "New Dashboard",
+          "Notes": "New Dashboard",
+          "RouteLink": "/Dashboard/New"
+
+        }
+      ],
+      "icon": "fa fa-dashboard",
+      "Name": "Dashboard",
+      "Notes": "Dashboard",
+      "RouteLink": "/Dashboard/MyDashboard"
+
+    },
+    {
+      "Attributes": [
+
+      ],
+
+      "Children": [
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "My Filters",
+          "Notes": "My Filters",
+          "RouteLink": ""
+
+        },
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "New Filter",
+          "Notes": "New Filter",
+          "RouteLink": ""
+
+        }
+      ],
+      "icon": "fa fa-filter",
+      "Name": "Filters",
+      "Notes": "Filters",
+      "RouteLink": ""
+
+    },
+    {
+      "Attributes": [
+
+      ],
+
+      "Children": [
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "My Datasources",
+          "Notes": "My Datasources",
+          "RouteLink": ""
+
+        },
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "New Datasource",
+          "Notes": "New Datasource",
+          "RouteLink": ""
+
+        }
+      ],
+      "icon": "fa fa-database",
+      "Name": "Datasources",
+      "Notes": "Datasources",
+      "RouteLink": ""
+
+    },
+    {
+      "Attributes": [
+
+      ],
+
+      "Children": [
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "My Schedules",
+          "Notes": "My Schedules",
+          "RouteLink": ""
+
+        },
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "New Schedule",
+          "Notes": "New Schedule",
+          "RouteLink": ""
+
+        }
+      ],
+      "icon": "fa fa-clock-o",
+      "Name": "Schedules",
+      "Notes": "Schedules",
+      "RouteLink": ""
+
+    },
+    {
+      "Attributes": [
+
+      ],
+
+      "Children": [
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "Email Settings",
+          "Notes": "Email Settings",
+          "RouteLink": ""
+
+        },
+        {
+          "Attributes": [
+
+          ],
+
+          "Children": [],
+
+          "Name": "User Settings",
+          "Notes": "User Settings",
+          "RouteLink": ""
+
+        }
+      ],
+      "icon": "fa fa-cog",
+      "Name": "Settings",
+      "Notes": "Settings",
+      "RouteLink": ""
+
+    }
+
+  ]
+}

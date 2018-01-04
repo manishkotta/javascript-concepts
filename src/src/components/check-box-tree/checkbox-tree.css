@@ -1,0 +1,40 @@
+.react-checkbox-tree {
+  font-size: inherit;
+}
+
+.react-checkbox-tree ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.react-checkbox-tree ol ol {
+  padding-left: 24px;
+}
+
+.react-checkbox-tree .rct-icon {
+  font-family: "FontAwesome";
+  font-style: normal;
+}
+
+.checkbox{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rct-icon{
+  padding: 0 5px;
+  margin-top: -3px;
+}
+
+.rct-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.rct-node-leaf{
+    padding-left: 18.5px;
+}

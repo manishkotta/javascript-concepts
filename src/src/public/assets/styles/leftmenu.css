@@ -1,0 +1,357 @@
+
+.sidebar-menu .treeview-menu{
+    display: block !important;
+}
+
+#control-sidebar-menutree-tab a {
+    color: #ffffff;
+}
+.sidebar-menu > li a,
+.sidebar-menu > li span a {
+    padding: 8px 5px 8px 15px;
+    display: block;
+    line-height: 12px;
+    font-size:13px;
+}
+.sidebar-menu > li span.fa {
+    float: right;
+    padding: 8px 10px 8px 0px;
+    display: block;
+    line-height: 12px;
+    font-weight: normal;
+}
+.content {
+    padding-top: 36px !important;
+}
+.navbar .content-header {
+    box-shadow: 0px 0px 5px #999999;
+    background: #f3f3f3 !important;
+    z-index: 99;
+}
+/**Common styles***/
+
+.clear {
+    clear: both;
+}
+.panel-info {
+    border-color: #E3EDF6 !important;
+}
+.panel-info > .panel-heading {
+    background-image: none !important;
+    background-color: #E3EDF6 !important;
+    color: #326A96 !important;
+}
+.dropdown-menu {
+    width: 100%;
+}
+.rw-selectlist > li.rw-list-option.rw-state-selected,
+ul.rw-list > li.rw-list-option.rw-state-selected {
+    background: #F1F0F0 !important;
+}
+.rw-combobox:hover,
+.rw-datetimepicker:hover,
+.rw-dropdownlist:hover,
+.rw-numberpicker:hover {
+    background: #F1F0F0 !important;
+}
+/******Sidebar*******/
+
+#control-sidebar-menutree-tab .menu-name a:hover {
+    color: #df630b;
+}
+label.checkbox-inline,
+label.radio-inline {
+    margin-right: 10px;
+    padding-left: 34px;
+    padding-right: 0px;
+    line-height: 18px;
+}
+.small,
+small {
+    text-align: center;
+}
+.box {
+    margin-bottom: 12px;
+}
+/*************Component Tabs Style***************/
+
+#Location-wizard-tabs .board {
+    width: 100%;
+}
+#Location-wizard-tabs .board .nav-tabs {
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: none !important;
+    margin: 0px auto;
+    width: auto;
+    display: table;
+}
+#Location-wizard-tabs .board .nav-tabs li {
+    text-align: center;
+}
+#Location-wizard-tabs .liner {
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 90%;
+    margin: 0 -30px 0px 30px;
+    top: 25px;
+    z-index: 0;
+}
+#Location-wizard-tabs .nav-tabs > li.active > a,
+#Location-wizard-tabs .nav-tabs > li.active > a:hover,
+#Location-wizard-tabs .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    /* background-color:#ffffff; */
+    
+    border: 0;
+    border-bottom-color: transparent;
+}
+#Location-wizard-tabs span.round-tabs {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+}
+#Location-wizard-tabs li a.wizard-item span.round-tabs {
+    border: 2px solid #ddd;
+}
+#Location-wizard-tabs li a.wizard-item.active span.round-tabs {
+    color: #ffffff;
+    background: #3672a2;
+}
+#Location-wizard-tabs .nav-tabs > li > a {
+    border: 0px;
+}
+#Location-wizard-tabs span.round-tabs.one {
+    color: #22c222;
+}
+#Location-wizard-tabs li.active span.round-tabs.one {
+    background: #fff !important;
+    color: #22c222;
+}
+#Location-wizard-tabs span.round-tabs.two {
+    color: #febe29;
+}
+#Location-wizard-tabs li.active span.round-tabs.two {
+    background: #fff !important;
+    color: #febe29;
+}
+#Location-wizard-tabs span.round-tabs.three {
+    color: #3e5e9a;
+}
+#Location-wizard-tabs li.active span.round-tabs.three {
+    background: #fff !important;
+    color: #3e5e9a;
+}
+#Location-wizard-tabs span.round-tabs.four {
+    color: #f1685e;
+}
+#Location-wizard-tabs li.active span.round-tabs.four {
+    background: #fff !important;
+    color: #f1685e;
+}
+#Location-wizard-tabs span.round-tabs.five {
+    color: #3879D9;
+}
+#Location-wizard-tabs li.active span.round-tabs.five {
+    background: #fff !important;
+    color: #3879D9;
+}
+#Location-wizard-tabs span.round-tabs.six {
+    color: #999;
+}
+#Location-wizard-tabs li.active span.round-tabs.six {
+    background: #fff !important;
+    color: #999;
+}
+#Location-wizard-tabs span.round-tabs.seven {
+    color: #8bc34a;
+}
+#Location-wizard-tabs li.active span.round-tabs.seven {
+    background: #fff !important;
+    color: #8bc34a;
+}
+#Location-wizard-tabs .nav-tabs > li.active > a span.round-tabs {
+    background: #fafafa;
+}
+#Location-wizard-tabs .nav-tabs > li {
+    width: auto;
+    height: auto;
+    margin: 0px 5px;
+    display: inline-block;
+}
+#Location-wizard-tabs .nav-tabs > li a.active .tab-title {
+    font-weight: bold;
+    color: #3672A2 !important;
+}
+#Location-wizard-tabs .nav-tabs .tab-title {
+    background: none !important;
+    color: #999 !important;
+    line-height: normal;
+    display: block;
+    width: 50px;
+}
+#Location-wizard-tabs li:after {
+    content: " ";
+    position: absolute;
+    left: 30%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #ddd;
+    transition: 0.1s ease-in-out;
+}
+#Location-wizard-tabs li.active:after {
+    content: " ";
+    position: absolute;
+    left: 30%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #ddd;
+}
+#Location-wizard-tabs .nav-tabs > li a {
+    width: 54px;
+    height: 54px;
+    margin: 0px auto;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+#Location-wizard-tabs .nav-tabs > li a:hover {
+    background: transparent;
+}
+#Location-wizard-tabs .tab-pane {
+    position: relative;
+}
+#Location-wizard-tabs .tab-content .head {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#Location-wizard-tabs .btn-outline-rounded {
+    padding: 10px 40px;
+    margin: 20px 0;
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+#Location-wizard-tabs .btn.green {
+    background-color: #5cb85c;
+    /*border:2px solid #5cb85c;*/
+    
+    color: #ffffff;
+}
+#Location-wizard-tabs .tab-content {
+    margin-top: 30px;
+}
+#Location-wizard-tabs .tab-content-menu {
+    margin-top: -12px;
+}
+@media (max-width: 585px) {
+    #Location-wizard-tabs .board {
+        height: auto !important;
+    }
+    #Location-wizard-tabs span.round-tabs {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #Location-wizard-tabs .tab-content .head {
+        font-size: 20px;
+    }
+    #Location-wizard-tabs .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #Location-wizard-tabs li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+    #Location-wizard-tabs .btn-outline-rounded {
+        padding: 12px 20px;
+    }
+}
+@media (max-width: 991px) {
+    #Location-wizard-tabs span.round-tabs {
+        width: 100%;
+        height: 100%;
+        line-height: 100%;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    #Location-wizard-tabs .nav-tabs > li a {
+        width: 40px;
+        height: 40px;
+        margin: 0px auto;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+    #Location-wizard-tabs .nav-tabs > li a:hover {
+        background: transparent;
+    }
+    #Location-wizard-tabs .liner {
+        height: 2px;
+        background: #ddd;
+        position: absolute;
+        width: 90%;
+        margin: 0 -30px 0px 30px;
+        top: 20px;
+        z-index: 0;
+    }
+    #Location-wizard-tabs .tab-content {
+        margin-top: 14px;
+    }
+    #Location-wizard-tabs .tab-content-menu {
+        margin-top: -5px;
+    }
+}
+@media (max-width: 767px) {
+    #Location-wizard-tabs span.round-tabs {
+        width: 100%;
+        height: 100%;
+        line-height: 100%;
+        font-size: 14px;
+        padding-top: 3px;
+    }
+    #Location-wizard-tabs .nav-tabs > li a {
+        width: 26px;
+        height: 26px;
+        margin: 0px auto;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+    #Location-wizard-tabs .nav-tabs > li a:hover {
+        background: transparent;
+    }
+    #Location-wizard-tabs .liner {
+        height: 2px;
+        background: #ddd;
+        position: absolute;
+        width: 90%;
+        margin: 0 -30px 0px 30px;
+        top: 15px;
+        z-index: 0;
+        display: none;
+    }
+    #Location-wizard-tabs .tab-content {
+        margin-top: 0px;
+    }
+    #Location-wizard-tabs .tab-content-menu {
+        margin-top: -20px;
+    }
+} 

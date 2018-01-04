@@ -1,0 +1,19 @@
+﻿.animatedButton {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+  outline: 0;
+  padding: 8px 10px 4px 10px;
+  font-size:12px;
+}
+
+
+.animatedButton:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+  transition: all .2s linear;
+}

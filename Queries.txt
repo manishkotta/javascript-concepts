@@ -1,0 +1,13 @@
+SELECT top 10 DATE_TRUNC('week', ship_date) AS week,
+               
+sum(shipped_quantity) AS quantity,
+               
+sum(amount_usd) AS sales
+               
+FROM tmp.ggk_transactions 
+               
+WHERE distributor_id = 2 
+               
+AND ship_date >= '2015-08-03' AND ship_date <= '2017-08-03' 
+               
+GROUP BY 1`
